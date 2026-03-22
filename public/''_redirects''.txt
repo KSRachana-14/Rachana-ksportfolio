@@ -1,0 +1,9 @@
+# Serve static files directly
+/RachanaResume.pdf  /RachanaResume.pdf  200
+/rprogramming.pdf/*  /rprogramming.pdf/:splat  200
+/gettingstartedwithai.pdf/*  /gettingstartedwithai.pdf/:splat  200
+/buildthon.jpeg/*  /buildthon.jpeg/:splat  200
+
+
+# SPA fallback for all other routes
+/*  /index.html  200
