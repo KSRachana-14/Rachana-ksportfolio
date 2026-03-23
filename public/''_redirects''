@@ -1,0 +1,7 @@
+# Serve static files directly
+/ResumeRachana.pdf  /ResumeRachana.pdf  200
+/cybersecurity.pdf/*  /cybersecurity.pdf/:splat  200
+/buidthon.jpeg/*  /buidthon.jpeg/:splat  200
+
+# SPA fallback for all other routes
+/*  /index.html  200
